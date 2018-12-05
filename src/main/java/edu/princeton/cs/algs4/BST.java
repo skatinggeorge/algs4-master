@@ -26,7 +26,7 @@
 package edu.princeton.cs.algs4;
 
 import java.util.NoSuchElementException;
-
+/*testing adddddddddddddddddddddddddd */
 /**
  *  The {@code BST} class represents an ordered symbol table of generic
  *  key-value pairs.
@@ -39,7 +39,7 @@ import java.util.NoSuchElementException;
  *  when associating a value with a key that is already in the symbol table,
  *  the convention is to replace the old value with the new value.
  *  Unlike {@link java.util.Map}, this class uses the convention that
- *  values cannot be {@code null}—setting the
+ *  values cannot be {@code null}鈥攕etting the
  *  value associated with a key to {@code null} is equivalent to deleting the key
  *  from the symbol table.
  *  <p>
@@ -345,7 +345,7 @@ public class BST<Key extends Comparable<Key>, Value> {
      * @param  k the order statistic
      * @return the key in the symbol table of rank {@code k}
      * @throws IllegalArgumentException unless {@code k} is between 0 and
-     *        <em>n</em>–1
+     *        <em>n</em>鈥�1
      */
     public Key select(int k) {
         if (k < 0 || k >= size()) {
